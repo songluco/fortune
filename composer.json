@@ -1,7 +1,0 @@
-{
-    "require": {
-        "songluco/interest-center": "@dev",
-        "nesbot/carbon": "^1.22",
-        "barryvdh/laravel-ide-helper": "^2.4"
-    }
-}
