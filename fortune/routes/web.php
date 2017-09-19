@@ -14,3 +14,10 @@
 Route::get('/', function () {
     return view('welcome');
 });
+
+
+Route::any('/test/index', 'TestController@anyIndex');
+Route::any('/reflection/index', 'SongluReflectionTestController@anyIndex');
+Route::any('/strtolower/index', 'StrToLowerController@anyIndex');
+
+Route::any('routepay/routenotify/pay-return', 'RoutePay\RouteNotifyController@anyPayReturn');
