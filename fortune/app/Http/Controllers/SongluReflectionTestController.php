@@ -27,7 +27,6 @@ class SongluReflectionTestController extends Controller
             $method->invoke($instance, $method->name); //执行方法
         }
         dd(222);
-
     }
 
 }
